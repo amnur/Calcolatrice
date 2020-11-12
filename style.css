@@ -1,0 +1,89 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+#container{
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: calc(100% / 6) ;
+    grid-template-areas: "display display display display"
+    "azzera divisione moltiplicazione sottrazione"
+    "sette otto nove addizione"
+    "quattro cinque sei addizione"
+    "uno due tre uguale"
+    "zero zero virgola uguale";
+}
+#container>div{
+    margin: 5px;
+    background: radial-gradient(rgb(53, 121, 153),rgb(0, 0, 0));
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+#container>div:hover{
+    background: radial-gradient(rgb(167, 247, 203),rgb(0, 0, 0));
+}
+#display{
+    grid-area: display;
+}
+#azzera{
+    grid-area: azzera;
+}
+#divisione{
+    grid-area: divisione;
+}
+#moltiplicazione{
+    grid-area: moltiplicazione;
+}
+#sottrazione{
+    grid-area: sottrazione;
+}
+#addizione{
+    grid-area: addizione;
+}
+#uguale{
+    grid-area: uguale;
+}
+#virgola{
+    grid-area: virgola;
+}
+#zero{
+    grid-area: zero;
+}
+#uno{
+    grid-area: uno;
+}
+#due{
+    grid-area: due;
+}
+#tre{
+    grid-area: tre;
+}
+#quattro{
+    grid-area: quattro;
+}
+#cinque{
+    grid-area: cinque;
+}
+#sei{
+    grid-area: sei;
+}
+#sette{
+    grid-area: sette;
+}
+#otto{
+    grid-area: otto;
+}
+#nove{
+    grid-area: nove;
+}
+
+
+
+
+
